@@ -117,8 +117,8 @@
  .filter-tags {
   max-width: 300px;
     margin-left: 50px;
-    justify-content: end;
-    align-items: start;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 @media (min-width: 1000px) {
@@ -135,10 +135,10 @@
   width: 60%;
 }
 .filter-tags {
-  max-width: 200px;
+    max-width: 200px;
     margin-left: 50px;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 }
 }
