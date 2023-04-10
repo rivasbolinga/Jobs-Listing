@@ -6,8 +6,10 @@ import FilterTags from './FilterTags'
 import { FilterContext } from './createContext'
 
 const Jobs = () => {
+  //eslint-disable-next-line
   const [isLoading, setIsLoading] = useState(true)
   const [jobs, setJobs] = useState([])
+  //eslint-disable-next-line
   const [error, setError] = useState('')
 //-- Take filters array from the Context created.
   const { filters } = useContext(FilterContext)
